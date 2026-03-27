@@ -1,0 +1,14 @@
+torch
+datasets
+transformers
+pandas
+numpy
+matplotlib
+seaborn
+wordcloud
+beautifulsoup4
+scikit-learn
+notebook
+streamlit
+fastapi
+uvicorn
