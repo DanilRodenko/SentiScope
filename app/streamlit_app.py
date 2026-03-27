@@ -23,8 +23,8 @@ if button and text:
     prediction = logits.argmax(dim=1).item()
 
     if prediction == 1:
-        st.success("Positive 😊")
+        st.success("Positive")
     else:
-        st.error("Negative 😞")
+        st.error("Negative")
 elif text is None:
     st.text("Please enter your review here")
